@@ -1,0 +1,23 @@
+{
+  "matchup": "ZvZ",
+  "label": "ZvZ — vs Zerg",
+  "cues": [
+    { "time": 12,  "message": "[PLACEHOLDER] Send your overlord to scout early pool timing.", "category": "scout" },
+    { "time": 25,  "message": "[PLACEHOLDER] Check your pool timing — 12 or 17 pool?", "category": "build" },
+    { "time": 50,  "message": "[PLACEHOLDER] Are you safe? Scout for a pool-first cheese.", "category": "scout" },
+    { "time": 70,  "message": "[PLACEHOLDER] Pool is down — start queens and ling speed.", "category": "build" },
+    { "time": 100, "message": "[PLACEHOLDER] First inject.", "category": "inject" },
+    { "time": 130, "message": "[PLACEHOLDER] Ling speed timing — confirm it's researching.", "category": "tech" },
+    { "time": 160, "message": "[PLACEHOLDER] Scout for a Roach Warren or Baneling Nest.", "category": "scout" },
+    { "time": 200, "message": "[PLACEHOLDER] Inject — second round.", "category": "inject" },
+    { "time": 240, "message": "[PLACEHOLDER] Natural hatchery timing — expand when safe.", "category": "build" },
+    { "time": 300, "message": "[PLACEHOLDER] Check for Mutalisk or Roach build — adjust accordingly.", "category": "scout" },
+    { "time": 360, "message": "[PLACEHOLDER] Inject and check army position.", "category": "inject" },
+    { "time": 420, "message": "[PLACEHOLDER] Start Lair — Muta or Roach-Ravager timing.", "category": "tech" },
+    { "time": 480, "message": "[PLACEHOLDER] Check enemy third — contest it or take yours.", "category": "scout" },
+    { "time": 540, "message": "[PLACEHOLDER] Third hatchery and drone up.", "category": "econ" },
+    { "time": 600, "message": "[PLACEHOLDER] Inject — keep supply capped.", "category": "inject" },
+    { "time": 660, "message": "[PLACEHOLDER] Watch for a counter-attack while you're moving out.", "category": "army" },
+    { "time": 720, "message": "[PLACEHOLDER] Upgrade reminder — Carapace or Melee depending on units.", "category": "tech" }
+  ]
+}

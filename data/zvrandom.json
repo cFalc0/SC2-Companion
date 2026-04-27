@@ -1,0 +1,22 @@
+{
+  "matchup": "ZvRandom",
+  "label": "ZvR — vs Random",
+  "cues": [
+    { "time": 12,  "message": "[PLACEHOLDER] Send your overlord to scout — identify the race early.", "category": "scout" },
+    { "time": 30,  "message": "[PLACEHOLDER] Look for an SCV, Probe, or Drone to confirm the enemy race.", "category": "scout" },
+    { "time": 60,  "message": "[PLACEHOLDER] Check enemy buildings — what race are you facing?", "category": "scout" },
+    { "time": 90,  "message": "[PLACEHOLDER] Race should be confirmed by now — adjust your build.", "category": "scout" },
+    { "time": 100, "message": "[PLACEHOLDER] First inject.", "category": "inject" },
+    { "time": 120, "message": "[PLACEHOLDER] If Terran: watch for early Reaper or proxy. If Protoss: check for 4-Gate. If Zerg: watch for early pool.", "category": "scout" },
+    { "time": 180, "message": "[PLACEHOLDER] Natural hatchery timing — take it when safe.", "category": "build" },
+    { "time": 240, "message": "[PLACEHOLDER] Inject — second round.", "category": "inject" },
+    { "time": 300, "message": "[PLACEHOLDER] Commit to your tech based on confirmed race.", "category": "tech" },
+    { "time": 360, "message": "[PLACEHOLDER] Scout their natural and tech path.", "category": "scout" },
+    { "time": 420, "message": "[PLACEHOLDER] Inject — keep production going.", "category": "inject" },
+    { "time": 480, "message": "[PLACEHOLDER] Check expansions and army composition.", "category": "scout" },
+    { "time": 540, "message": "[PLACEHOLDER] Third hatchery — grow your economy.", "category": "econ" },
+    { "time": 600, "message": "[PLACEHOLDER] Upgrade reminder and army check.", "category": "tech" },
+    { "time": 660, "message": "[PLACEHOLDER] Inject — late game macro.", "category": "inject" },
+    { "time": 720, "message": "[PLACEHOLDER] Prepare your attack timing or defend a third base push.", "category": "army" }
+  ]
+}

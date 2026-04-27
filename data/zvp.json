@@ -1,0 +1,24 @@
+{
+  "matchup": "ZvP",
+  "label": "ZvP — vs Protoss",
+  "cues": [
+    { "time": 12,  "message": "[PLACEHOLDER] Send your overlord toward the Protoss natural.", "category": "scout" },
+    { "time": 30,  "message": "[PLACEHOLDER] Drone up — keep building until your pool is done.", "category": "econ" },
+    { "time": 60,  "message": "[PLACEHOLDER] Pool is down — start your first queen.", "category": "build" },
+    { "time": 90,  "message": "[PLACEHOLDER] Scout: is Protoss going for a Nexus or two Gateway pressure?", "category": "scout" },
+    { "time": 120, "message": "[PLACEHOLDER] First inject on both hatcheries.", "category": "inject" },
+    { "time": 150, "message": "[PLACEHOLDER] Natural hatchery timing — start if you haven't.", "category": "build" },
+    { "time": 180, "message": "[PLACEHOLDER] Check for a 4-Gate or proxy Gateway.", "category": "scout" },
+    { "time": 240, "message": "[PLACEHOLDER] Inject — watch your Queen energy.", "category": "inject" },
+    { "time": 300, "message": "[PLACEHOLDER] Start a Roach Warren or Baneling Nest depending on their tech.", "category": "tech" },
+    { "time": 360, "message": "[PLACEHOLDER] Scout for an Oracle or Adept harass.", "category": "scout" },
+    { "time": 420, "message": "[PLACEHOLDER] Inject reminder — third round.", "category": "inject" },
+    { "time": 480, "message": "[PLACEHOLDER] Check if Protoss took their Natural and Third.", "category": "scout" },
+    { "time": 540, "message": "[PLACEHOLDER] Third hatchery — expand your economy.", "category": "econ" },
+    { "time": 600, "message": "[PLACEHOLDER] Watch for a Colossus or Immortal timing attack.", "category": "army" },
+    { "time": 660, "message": "[PLACEHOLDER] Inject and check army supply vs Protoss.", "category": "inject" },
+    { "time": 720, "message": "[PLACEHOLDER] Start Lair — tech toward Lurkers or Mutalisk.", "category": "tech" },
+    { "time": 840, "message": "[PLACEHOLDER] Have Corruptors ready if Colossus is confirmed.", "category": "army" },
+    { "time": 960, "message": "[PLACEHOLDER] Check Protoss army position — don't get caught split.", "category": "scout" }
+  ]
+}

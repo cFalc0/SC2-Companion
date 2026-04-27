@@ -1,0 +1,24 @@
+{
+  "matchup": "ZvT",
+  "label": "ZvT — vs Terran",
+  "cues": [
+    { "time": 12,  "message": "[PLACEHOLDER] Send your overlord to scout the enemy base.", "category": "scout" },
+    { "time": 30,  "message": "[PLACEHOLDER] Check your drone count — start the next production cycle.", "category": "econ" },
+    { "time": 60,  "message": "[PLACEHOLDER] Spawning Pool should be down — queue your first queen.", "category": "build" },
+    { "time": 90,  "message": "[PLACEHOLDER] Scout for early Barracks aggression or proxy.", "category": "scout" },
+    { "time": 120, "message": "[PLACEHOLDER] First inject — keep your queens busy.", "category": "inject" },
+    { "time": 150, "message": "[PLACEHOLDER] Start your Natural hatchery if you haven't.", "category": "build" },
+    { "time": 180, "message": "[PLACEHOLDER] Check for a 2-Rax or Reaper pressure build.", "category": "scout" },
+    { "time": 240, "message": "[PLACEHOLDER] Inject reminder — second round.", "category": "inject" },
+    { "time": 300, "message": "[PLACEHOLDER] Lair timing — start upgrading when economy allows.", "category": "tech" },
+    { "time": 360, "message": "[PLACEHOLDER] Scout for a Tank push or early Marine timing.", "category": "scout" },
+    { "time": 420, "message": "[PLACEHOLDER] Inject reminder — keep drone production flowing.", "category": "inject" },
+    { "time": 480, "message": "[PLACEHOLDER] Check if Terran has taken their Natural.", "category": "scout" },
+    { "time": 540, "message": "[PLACEHOLDER] Start your Third hatchery.", "category": "econ" },
+    { "time": 600, "message": "[PLACEHOLDER] Watch for a Bio push — have Banelings ready.", "category": "army" },
+    { "time": 660, "message": "[PLACEHOLDER] Inject and check your army supply.", "category": "inject" },
+    { "time": 720, "message": "[PLACEHOLDER] Upgrade reminder — Carapace or Melee/Ranged attacks.", "category": "tech" },
+    { "time": 840, "message": "[PLACEHOLDER] Push timing or prepare to defend a third base attack.", "category": "army" },
+    { "time": 960, "message": "[PLACEHOLDER] Check Terran third — deny or prepare for a macro game.", "category": "scout" }
+  ]
+}
