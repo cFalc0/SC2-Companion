@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <radialGradient id="dbg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#3a0060" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#0a0010" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="deye" cx="40%" cy="35%" r="60%">
+      <stop offset="0%" stop-color="#ff90b0"/>
+      <stop offset="100%" stop-color="#cc0040"/>
+    </radialGradient>
+  </defs>
+  <!-- ambient glow -->
+  <circle cx="32" cy="32" r="30" fill="url(#dbg)"/>
+  <!-- wings -->
+  <ellipse cx="13" cy="28" rx="10" ry="4.5" fill="#200630" stroke="#5515a0" stroke-width="1" transform="rotate(-22,13,28)" opacity="0.85"/>
+  <ellipse cx="51" cy="28" rx="10" ry="4.5" fill="#200630" stroke="#5515a0" stroke-width="1" transform="rotate(22,51,28)" opacity="0.85"/>
+  <!-- body -->
+  <ellipse cx="32" cy="38" rx="13" ry="11" fill="#1e0640" stroke="#6818c0" stroke-width="1.5"/>
+  <!-- thorax -->
+  <ellipse cx="32" cy="26" rx="9" ry="8" fill="#28084e" stroke="#7828d8" stroke-width="1.5"/>
+  <!-- head -->
+  <ellipse cx="32" cy="19" rx="7.5" ry="6.5" fill="#340a62" stroke="#8e38f0" stroke-width="1.5"/>
+  <!-- eye -->
+  <circle cx="32" cy="18.5" r="4" fill="url(#deye)"/>
+  <circle cx="33.5" cy="17" r="1.2" fill="#ffddee" opacity="0.8"/>
+  <!-- mandibles -->
+  <path d="M25 27 C20 32 18 38 19 43" stroke="#5510a0" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+  <path d="M39 27 C44 32 46 38 45 43" stroke="#5510a0" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+  <!-- tail segments -->
+  <ellipse cx="32" cy="47" rx="7.5" ry="5" fill="#160430" stroke="#4c0e98" stroke-width="1"/>
+  <ellipse cx="32" cy="53.5" rx="4.5" ry="3" fill="#0e0220" stroke="#380a78" stroke-width="1"/>
+</svg>

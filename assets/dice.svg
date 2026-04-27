@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- front face -->
+  <rect x="12" y="24" width="30" height="30" rx="5" fill="#161424" stroke="#5c50a0" stroke-width="1.5"/>
+  <!-- top face -->
+  <polygon points="12,24 26,11 56,11 42,24" fill="#201c34" stroke="#5c50a0" stroke-width="1.5"/>
+  <!-- right face -->
+  <polygon points="42,24 56,11 56,41 42,54" fill="#0e0c1c" stroke="#5c50a0" stroke-width="1.5"/>
+  <!-- front face: 5 dots -->
+  <circle cx="22" cy="33" r="2.8" fill="#c0aeff"/>
+  <circle cx="42" cy="33" r="2.8" fill="#c0aeff"/>
+  <circle cx="32" cy="39" r="2.8" fill="#c0aeff"/>
+  <circle cx="22" cy="45" r="2.8" fill="#c0aeff"/>
+  <circle cx="42" cy="45" r="2.8" fill="#c0aeff"/>
+  <!-- top face: 2 dots (isometric) -->
+  <ellipse cx="34" cy="16" rx="2.2" ry="1.1" fill="#8878cc" opacity="0.9"/>
+  <ellipse cx="46" cy="19.5" rx="2.2" ry="1.1" fill="#8878cc" opacity="0.9"/>
+  <!-- right face: 3 dots (isometric) -->
+  <ellipse cx="50" cy="22" rx="1.6" ry="2.6" fill="#4a4080" opacity="0.8"/>
+  <ellipse cx="50" cy="31.5" rx="1.6" ry="2.6" fill="#4a4080" opacity="0.8"/>
+  <ellipse cx="50" cy="38" rx="1.6" ry="2.6" fill="#4a4080" opacity="0.8"/>
+</svg>
