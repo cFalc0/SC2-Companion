@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SC2 Companion</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="app">
+
+    <header>
+      <div class="header-title">
+        <span class="header-icon">⬡</span>
+        SC2 Companion
+      </div>
+      <button id="settings-btn" class="icon-btn" title="Settings" aria-label="Settings">⚙</button>
+    </header>
+
+    <!-- Settings Drawer -->
+    <div id="settings-panel" class="drawer hidden" role="dialog" aria-label="Settings">
+      <div class="drawer-header">
+        <h2>Settings</h2>
+        <button id="settings-close" class="icon-btn" aria-label="Close settings">✕</button>
+      </div>
+
+      <div class="form-group">
+        <label for="api-key">ElevenLabs API Key</label>
+        <input type="password" id="api-key" placeholder="sk-..." autocomplete="off">
+        <p class="hint">Stored in your browser only. Leave blank to use browser TTS.</p>
+      </div>
+
+      <div class="form-group">
+        <label for="voice-id">Voice ID</label>
+        <input type="text" id="voice-id" placeholder="e.g. 21m00Tcm4TlvDq8ikWAM">
+        <p class="hint">Find voice IDs in your ElevenLabs dashboard.</p>
+      </div>
+
+      <div class="form-group">
+        <label for="volume">Volume — <span id="volume-label">80%</span></label>
+        <input type="range" id="volume" min="0" max="1" step="0.05" value="0.8">
+      </div>
+
+      <div class="form-group">
+        <label class="toggle-label">
+          <input type="checkbox" id="tts-enabled" checked>
+          <span class="toggle-text">Enable voice coaching</span>
+        </label>
+      </div>
+
+      <div class="form-group">
+        <label class="toggle-label">
+          <input type="checkbox" id="show-text" checked>
+          <span class="toggle-text">Show cue text on screen</span>
+        </label>
+      </div>
+
+      <button id="save-settings" class="btn-primary">Save</button>
+      <button id="test-voice-btn" class="btn-secondary">Test Voice</button>
+    </div>
+
+    <!-- Setup Panel -->
+    <div id="setup-panel" class="panel">
+      <p class="panel-intro">Select your matchup and build order to start coaching.</p>
+
+      <div class="form-group">
+        <label for="matchup-select">Matchup</label>
+        <select id="matchup-select">
+          <option value="">Choose matchup…</option>
+          <optgroup label="Zerg">
+            <option value="zvp">ZvP — Zerg vs Protoss</option>
+            <option value="zvt">ZvT — Zerg vs Terran</option>
+            <option value="zvz">ZvZ — Zerg vs Zerg</option>
+          </optgroup>
+          <optgroup label="Protoss">
+            <option value="pvz">PvZ — Protoss vs Zerg</option>
+            <option value="pvt">PvT — Protoss vs Terran</option>
+            <option value="pvp">PvP — Protoss vs Protoss</option>
+          </optgroup>
+          <optgroup label="Terran">
+            <option value="tvz">TvZ — Terran vs Zerg</option>
+            <option value="tvp">TvP — Terran vs Protoss</option>
+            <option value="tvt">TvT — Terran vs Terran</option>
+          </optgroup>
+        </select>
+      </div>
+
+      <div class="form-group hidden" id="build-group">
+        <label for="build-select">Build Order</label>
+        <select id="build-select"></select>
+        <p id="build-desc" class="hint"></p>
+      </div>
+
+      <button id="load-btn" class="btn-primary" disabled>Load Coach</button>
+    </div>
+
+    <!-- Coach Panel -->
+    <div id="coach-panel" class="panel hidden">
+
+      <div id="match-info">
+        <span id="match-label"></span>
+        <button id="back-btn" class="btn-ghost">← Change</button>
+      </div>
+
+      <div id="timer-block">
+        <div id="timer-display">
+          <span id="timer-min">0</span>:<span id="timer-sec">00</span>
+        </div>
+        <div id="timer-controls">
+          <button id="start-btn" class="btn-primary">▶ Start</button>
+          <button id="pause-btn" class="btn-secondary" disabled>⏸ Pause</button>
+          <button id="reset-btn" class="btn-ghost">↺ Reset</button>
+        </div>
+        <div id="offset-row">
+          <label for="time-offset">Jump to (mm:ss):</label>
+          <input type="text" id="time-offset" placeholder="0:00" maxlength="5">
+          <button id="offset-btn" class="btn-ghost">Set</button>
+        </div>
+      </div>
+
+      <div id="cue-area">
+        <div id="next-cue-block" class="cue-card">
+          <div class="cue-card-label">NEXT CUE</div>
+          <div id="next-cue-text" class="cue-text">—</div>
+          <div id="next-cue-time" class="cue-time"></div>
+        </div>
+
+        <div id="active-cue-block" class="cue-card active-cue hidden">
+          <div class="cue-card-label">NOW</div>
+          <div id="active-cue-text" class="cue-text"></div>
+        </div>
+      </div>
+
+      <div id="cue-log-section">
+        <h3>Spoken cues <span id="log-count"></span></h3>
+        <ul id="log-list"></ul>
+      </div>
+
+    </div>
+
+    <!-- Status bar -->
+    <div id="status-bar" class="hidden">
+      <span id="status-text"></span>
+    </div>
+
+  </div>
+
+  <script src="js/tts.js"></script>
+  <script src="js/coach.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
